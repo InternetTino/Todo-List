@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <header><h1>My Todo - List</h1></header>
+  <body>
+    <div class="input-container">
+      <input type="text" name="input" id="inputx" />
+      <button class="btnnewtodo" id="btnnewtodo">Aufgabe anlegen</button>
+    </div>
+    <div class="boxcontainer">
+      <select class="box" id="box" name="box">
+        <option value="erledigt">Nur erledigte Aufgaben</option>
+        <option value="offen">Nur offene Aufgaben</option>
+        <option selected value="alle">Alle Aufgaben</option>
+      </select>
+    </div>
+    <ul class="ul" id="ul"></ul>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
